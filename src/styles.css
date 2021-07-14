@@ -1,1 +1,12 @@
 /* You can add global styles to this file, and also import other style files */
+html{
+    background-image: url('./assets/SVG/AnimatedShape.svg');
+    background-color: transparent;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+@font-face {
+    font-family: 'Bear';
+    src: url('./assets/FontFamilies/FjallaOne-Regular.ttf');
+}
