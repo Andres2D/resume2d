@@ -10,3 +10,13 @@ html{
     font-family: 'Bear';
     src: url('./assets/FontFamilies/FjallaOne-Regular.ttf');
 }
+
+@font-face {
+    font-family: 'CodePro';
+    src: url('./assets/FontFamilies/SourceCodePro-Black.ttf');
+}
+
+@font-face {
+    font-family: 'CodeLight';
+    src: url('./assets/FontFamilies/SourceCodePro-Regular.ttf');
+}

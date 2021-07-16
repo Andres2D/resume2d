@@ -1,1 +1,36 @@
-<p>skills works!</p>
+<h1 class="title">Habilidades</h1>
+<div class="container">
+    <div class="frontEnd">
+        <h1>Frontend</h1>
+        <div class="content">
+            <div class="card" 
+                        *ngFor="let skill of skillsFrontend"
+                        [ngClass]="{
+                            'htmlHover': skill.styleClass == 'htmlHover',
+                            'cssHover': skill.styleClass == 'cssHover',
+                            'jsHover': skill.styleClass == 'jsHover',
+                            'tsHover': skill.styleClass == 'tsHover',
+                            'angularHover': skill.styleClass == 'angularHover'
+                        }">
+                <h3>{{skill.name}}</h3> 
+                <p>{{skill.description}}</p> 
+                <img [src]="skill.logo" alt="">
+            </div>
+        </div>
+    </div> 
+    <div class="backEnd">
+        <h1>Backend</h1>
+        <div class="content">
+            <div class="card" 
+                        *ngFor="let skill of skillsBackend"
+                        [ngClass]="{
+                            'netHover': skill.styleClass == 'netHover',
+                            'mysqlHover': skill.styleClass == 'mysqlHover'
+                        }">
+                <h3>{{skill.name}}</h3> 
+                <p>{{skill.description}}</p> 
+                <img [src]="skill.logo" alt="">
+            </div>
+        </div>
+    </div>
+</div>

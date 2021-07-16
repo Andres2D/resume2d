@@ -1,0 +1,59 @@
+h1{
+    padding-top: 100px;
+    text-align: center;
+    font-family: 'Bear';
+}
+
+.content{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 10px;
+    transition: 0.3s;
+    width: 20%;
+    padding: 2px 16px;
+    cursor: pointer;
+    background-color: whitesmoke;
+}
+
+.card > img {
+    margin-top: 10px;
+    width: 100%;
+}
+
+.card > h3{
+    font-family: 'CodePro';
+    text-align: center;
+}
+
+.card > p{
+    font-family: 'CodeLight';
+}
+
+.card:hover{
+    background-color: #476a84;
+    color: white;
+}
+
+.links{
+    display: flex;
+    justify-content: space-around;
+}
+
+.links > a{
+    font-family: 'CodePro';
+    margin-bottom: 5px;
+    color: black;
+}
+
+.links > a:hover{
+    color: white;
+}
+
+.links > a:link, a:visited, a:active {
+    text-decoration: none;
+
+}
