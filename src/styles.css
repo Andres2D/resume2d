@@ -1,6 +1,7 @@
 /* You can add global styles to this file, and also import other style files */
 html{
     background-image: url('./assets/SVG/AnimatedShape.svg');
+    background-position: 100%;
     background-color: transparent;
     background-attachment: fixed;
     background-size: cover;

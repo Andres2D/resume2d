@@ -8,34 +8,53 @@ import { Project } from '../../../interfaces/projects.interface';
 })
 export class ProjectsComponent implements OnInit {
 
+  /*
+  https://media.giphy.com/media/cOKjNdJDbqNCm4n0Jm/giphy.gif
+  */
+
+
   projects: Project[] = [
     {
       name: 'GifsApp',
       description: 'Basic gifs search using giphy API',
-      preview: 'https://media.giphy.com/media/cOKjNdJDbqNCm4n0Jm/giphy.gif',
+      preview: '../../../../assets/images/GifsAppPreview.PNG',
       urlDeploy: 'https://dazzling-roentgen-b4be77.netlify.app/',
       urlRepository: 'https://github.com/Andres2D/gifsApp'
     },
     {
       name: 'CountriesApp',
       description: 'Get the last information about geography',
-      preview: 'https://media.giphy.com/media/duud6Q9AILpj86w76x/giphy.gif',
+      preview: '../../../../assets/images/CountriesAppPreview.PNG',
       urlDeploy: 'https://friendly-bartik-91a05b.netlify.app/',
       urlRepository: 'https://github.com/Andres2D/countriesApp'
     },
     {
       name: 'Landing page WOLOX',
       description: 'A landindg page as challenge from WOLOX',
-      preview: 'https://media.giphy.com/media/xT77Y1T0zY1gR5qe5O/giphy.gif',
+      preview: '../../../../assets/images/LandingPagePreview.PNG',
       urlDeploy: 'https://flamboyant-rosalind-288be8.netlify.app/main',
       urlRepository: 'https://github.com/Andres2D/landingpage-wx'
     },
     {
       name: 'MapsApp',
       description: 'A Map application using mapbox',
-      preview: 'https://media.giphy.com/media/d2jjuAZzDSVLZ5kI/giphy.gif',
+      preview: '../../../../assets/images/MapsAppPreview.PNG',
       urlDeploy: 'https://dazzling-hawking-69f7b6.netlify.app',
       urlRepository: 'https://github.com/Andres2D/mapsApp'
+    },
+    {
+      name: 'AuthApp',
+      description: 'A basic auth application using Node as backend and JWT to auth',
+      preview: '../../../../assets/images/AuthAppPreview.PNG',
+      urlDeploy: 'https://angular-auth-2d.herokuapp.com/auth/login',
+      urlRepository: 'https://github.com/Andres2D/AuthApp-Backend.git'
+    },
+    {
+      name: 'AuthApp',
+      description: 'A basic auth application using Node as backend and JWT to auth',
+      preview: '../../../../assets/images/AuthAppPreview.PNG',
+      urlDeploy: 'https://angular-auth-2d.herokuapp.com/auth/login',
+      urlRepository: 'https://github.com/Andres2D/AuthApp-Backend.git'
     }
   ];
 

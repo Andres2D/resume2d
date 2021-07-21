@@ -10,7 +10,7 @@ h1{
 
 .frontEnd{
     width: 100%;
-    background-color: whitesmoke;
+    background-color: ghostwhite;
 }
 
 .backEnd{
@@ -27,15 +27,17 @@ h1{
 .content{
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
 .card{
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px, rgb(209, 213, 219) 0px 0px 0px 1px inset;
     border-radius: 10px;
     transition: 0.3s;
     width: 40%;
     padding: 2px 16px;
     cursor: pointer;
+    margin-bottom: 10px;
 }
 
 .card > h3{
@@ -90,4 +92,24 @@ h1{
 .card:hover.mysqlHover {
     background-color: #4479a1;
     color: white;
+}
+
+/* Responsive */
+@media (max-width: 800px) {
+    .container{
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 500px) {
+    .content{
+        flex-wrap: nowrap;
+        flex-direction: column;
+    }
+
+    .content .card{
+        width: 90%;
+        margin: 0px auto;
+        margin-bottom: 10px;
+    }
 }

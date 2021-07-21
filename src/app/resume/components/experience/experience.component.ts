@@ -13,7 +13,6 @@ export class ExperienceComponent implements OnInit {
       workPlace: 'NumRot',
       roleName: 'Analista Web',
       from: 2019,
-      to: 2021,
       description: 'Proveedor de facturación eletrónica'
     },
     {
