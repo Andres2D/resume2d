@@ -1,1 +1,10 @@
-<p>info works!</p>
+<h1>About me</h1>
+<div id="info">
+    <div id="social">
+        <div class="list" *ngFor="let social of socialMedia">
+            <img [src]="social.logo" (click)="GotoLink(social.link, social.isEmail)">
+            <h4 (click)="GotoLink(social.link, social.isEmail)">{{social.name}}</h4>
+        </div>
+    </div>
+    <img src="../../../../assets/images/follow.svg" alt="info">
+</div>

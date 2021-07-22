@@ -11,16 +11,17 @@ export class ExperienceComponent implements OnInit {
   works: WorkExperience[] = [
     {
       workPlace: 'NumRot',
-      roleName: 'Analista Web',
+      roleName: 'Web Analist',
       from: 2019,
+      to: null,
       description: 'Proveedor de facturación eletrónica'
     },
     {
       workPlace: 'MotoFox',
-      roleName: 'Administrativo',
+      roleName: 'Administrative',
       from: 2015,
       to: 2018,
-      description: 'Negocio familiar'
+      description: 'Familiar business'
     }
   ];
 

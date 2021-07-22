@@ -11,31 +11,31 @@ export class SkillsComponent implements OnInit {
   skillsFrontend: Skill[] = [
     {
       name: 'HTML',
-      description: 'Conocimientos intermedio-avanzado en HTML5',
+      description: 'Intermediate-advanced knowledge in HTML5',
       logo: '../../../../assets/images/html5-logo.png',
       styleClass: 'htmlHover'
     },
     {
       name: 'CSS',
-      description: 'Conocimientos intermedio-avanzado en CSS3',
+      description: 'Intermediate-advanced knowledge in CSS3',
       logo: '../../../../assets/images/css3-logo.png',
       styleClass: 'cssHover'
     },
     {
       name: 'JS',
-      description: 'Conocimientos avanzado en JavaScript ES6',
+      description: 'Advanced knowledge in JavaScript ES6',
       logo: '../../../../assets/images/javascript-logo.png',
       styleClass: 'jsHover'
     },
     {
       name: 'TS',
-      description: 'Conocimientos avanzado en TypeScript',
+      description: 'Advanced knowledge in TypeScript',
       logo: '../../../../assets/images/typescript-logo.png',
       styleClass: 'tsHover'
     },
     {
       name: 'Angular',
-      description: 'Conocimientos avanzado en Angular',
+      description: 'Advanced knowledge in Angular',
       logo: '../../../../assets/images/angular-logo.png',
       styleClass: 'angularHover'
     }
@@ -44,13 +44,13 @@ export class SkillsComponent implements OnInit {
   skillsBackend: Skill[] = [
     {
       name: 'ASP .Net Core',
-      description: 'Conocimientos básicos en ASP .Net Core orientado a microservicios',
+      description: 'Basic knowledge in ASP .Net Core oriented towards microservices',
       logo: '../../../../assets/images/NETCore-logo.png',
       styleClass: 'netHover'
     },
     {
       name: 'MySql',
-      description: 'Conocimientos básico-intermedio en bases de datos relacionales MySql, MariaDB',
+      description: 'Basic-intermediate knowledge in relational databases MySql, MariaDB',
       logo: '../../../../assets/images/mysql-logo.png',
       styleClass: 'mysqlHover'
     }
