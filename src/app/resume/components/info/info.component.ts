@@ -37,7 +37,7 @@ export class InfoComponent implements OnInit {
   GotoLink(url: string, isEmail: boolean){
 
     if(isEmail){
-      const email = `mailto:abc@abc.com?subject=files&body=${url}`;
+      const email = `andres2d1997.1206@gmail.com?subject=files&body=${url}`;
       window.location.href = email;
     }else{
       window.open(url, "_blank");
