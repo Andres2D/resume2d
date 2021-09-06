@@ -38,6 +38,7 @@ h1{
     padding: 2px 16px;
     cursor: pointer;
     margin-bottom: 10px;
+    transition: all 300ms;
 }
 
 .card > h3{
