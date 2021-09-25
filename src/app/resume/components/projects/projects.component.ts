@@ -50,11 +50,11 @@ export class ProjectsComponent implements OnInit {
       urlRepository: 'https://github.com/Andres2D/AuthApp-Backend.git'
     },
     {
-      name: 'AuthApp',
-      description: 'A basic auth application using Node as backend and JWT to auth',
-      preview: '../../../../assets/images/AuthAppPreview.PNG',
-      urlDeploy: 'https://angular-auth-2d.herokuapp.com/auth/login',
-      urlRepository: 'https://github.com/Andres2D/AuthApp-Backend.git'
+      name: 'Admin App',
+      description: 'Application to admin users and employees of an hospital (Work in progress)',
+      preview: '../../../../assets/images/adminPro.png',
+      urlDeploy: '',
+      urlRepository: 'https://github.com/Andres2D/adminPro'
     }
   ];
 
