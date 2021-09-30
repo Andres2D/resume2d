@@ -51,9 +51,9 @@ export class ProjectsComponent implements OnInit {
     },
     {
       name: 'Admin App',
-      description: 'Application to admin users and employees of an hospital (Work in progress)',
+      description: 'Application to admin users and employees of an hospital.',
       preview: '../../../../assets/images/adminPro.png',
-      urlDeploy: '',
+      urlDeploy: 'https://adm1npr0.herokuapp.com/login',
       urlRepository: 'https://github.com/Andres2D/adminPro'
     }
   ];
