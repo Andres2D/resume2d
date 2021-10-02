@@ -21,3 +21,19 @@ html{
     font-family: 'CodeLight';
     src: url('./assets/FontFamilies/SourceCodePro-Regular.ttf');
 }
+
+.spinner {
+    animation: spin 2s infinite linear;
+    display: flex;
+    margin: 80px auto;
+    width: 300px;
+}
+  
+@keyframes spin {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
