@@ -1,0 +1,53 @@
+.theme {
+    display: flex;
+    justify-content: end;
+}
+
+.toggle .check {
+    opacity: 0;
+    width: 0;
+    height: 0;
+    background-color: #3FC0D8;
+}
+
+.slider {
+    position: absolute;
+    background-color: #ccc;
+    cursor: pointer;
+    width: 60px;
+    height: 34px;
+    border-radius: 30px;
+    transition: .4s;
+    border: 1px solid black;
+    right: 40px;
+    top: 40px;
+}
+
+.slider:before {
+    content: url("../../../assets/images/light-theme.png");
+    position: absolute;
+    top: 0;
+    left: 6px;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.check + .slider {
+    background-color: #3FC0D8;  
+}
+
+.check:checked + .slider {
+    background-color: #546A79;
+}
+
+.check:checked + .slider:before {
+    left: -5px;
+}
+
+.check:checked + .slider:before {
+    -webkit-transform: translateX(25px);
+    -ms-transform: translateX(25px);
+    transform: translateX(25px);
+    content: url("../../../assets/images/dark-theme.png");
+}
+  
