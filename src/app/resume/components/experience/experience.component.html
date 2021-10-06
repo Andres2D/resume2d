@@ -1,6 +1,6 @@
 <div class="container">
     <div class="content">
-        <h1>Work experience</h1>
+        <h1 class="section-title">Work experience</h1>
         <ul>
             <li *ngFor="let work of works">
                 <h1>{{work.workPlace}} <small> from {{work.from}}</small><small *ngIf="work.to !== null"> to {{work.to}}</small></h1>

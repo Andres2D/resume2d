@@ -1,11 +1,39 @@
-/* html {
-    background: url('./assets/SVG/AnimatedShape.svg') no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-} */
-
 body {
     background-color: #E2E4E9;
+}
+
+.profile-photo{
+    width: 200px;
+    border-radius: 50px;
+    border: 10px solid #476a84;
+}
+
+.name {
+    font-family: 'Bear';
+    font-size: 55px;
+    margin-bottom: 0;
+}
+
+.role {
+    font-family: 'CodePro';
+    margin-top: 0;
+}
+
+.description {
+    margin: 50px auto;
+    width: 50%;
+    background-color: ghostwhite;
+    font-family: 'CodeLight';
+    padding: 30px;
+    border-radius: 10px;
+    font-size: 20px;
+    border: 2px solid black;
+}
+
+.section-title {
+    color: black;
+}
+
+.social {
+    border: 10px solid #476a84;
 }

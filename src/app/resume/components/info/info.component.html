@@ -1,6 +1,6 @@
-<h1>Contact me</h1>
+<h1 class="section-title">Contact me</h1>
 <div id="info">
-    <div id="social">
+    <div class="social">
         <div class="list" *ngFor="let social of socialMedia">
             <img [src]="social.logo" (click)="GotoLink(social.link, social.isEmail)">
             <h4 (click)="GotoLink(social.link, social.isEmail)">{{social.name}}</h4>
