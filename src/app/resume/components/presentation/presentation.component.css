@@ -5,6 +5,18 @@
     padding-top: 50px;
 }
 
+.waves {
+    position: absolute;
+    top: 0;
+    z-index: -999;
+}
+
+@media (max-width: 750px) {
+    .presentation {
+        padding-top: 8px;
+    } 
+}
+
 @media (max-width: 390px) {
     h1{
         font-size: 40px;

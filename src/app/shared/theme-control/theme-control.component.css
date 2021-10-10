@@ -50,4 +50,11 @@
     transform: translateX(25px);
     content: url("../../../assets/images/dark-theme.png");
 }
+
+@media (max-width: 750px) {
+    .slider  {
+        right: 15px;
+        top: 15px;
+    } 
+}
   

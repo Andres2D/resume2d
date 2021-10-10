@@ -37,3 +37,8 @@ body {
 .social {
     border: 10px solid #476a84;
 }
+
+.path {
+    fill: #476a84;
+    fill-opacity: 1;
+}

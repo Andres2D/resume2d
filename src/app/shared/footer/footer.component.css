@@ -1,6 +1,6 @@
 footer{
     text-align: center;
-    position: static;
+    position: relative;
     width: 100%;
     bottom: 0;
     font-family: 'Bear';
