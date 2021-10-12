@@ -44,3 +44,11 @@ body {
     fill: #E2E4E9;
     fill-opacity: 1;
 }
+
+.svg-prop {
+    fill: #E2E4E9; 
+}
+
+.svg-control {
+    fill: #E2E4E9;
+}

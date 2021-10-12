@@ -25,7 +25,8 @@
                         *ngFor="let skill of skillsBackend"
                         [ngClass]="{
                             'netHover': skill.styleClass == 'netHover',
-                            'mysqlHover': skill.styleClass == 'mysqlHover'
+                            'mysqlHover': skill.styleClass == 'mysqlHover',
+                            'nodeHover': skill.styleClass == 'nodeHover'
                         }">
                 <h3>{{skill.name}}</h3> 
                 <p>{{skill.description}}</p> 

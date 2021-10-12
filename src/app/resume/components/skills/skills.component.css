@@ -95,6 +95,11 @@ h1{
     color: white;
 }
 
+.card:hover.nodeHover {
+    background-color: #222f56;
+    color: white;
+}
+
 /* Responsive */
 @media (max-width: 800px) {
     .container{

@@ -1,7 +1,9 @@
-footer{
-    text-align: center;
-    position: relative;
-    width: 100%;
-    bottom: 0;
-    font-family: 'Bear';
-}   
+.waves-footer {
+    overflow: hidden;
+}
+
+.svg-prop {
+    transform: rotate(180deg);
+    position: sticky;
+    top: 5px;
+}

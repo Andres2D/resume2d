@@ -43,6 +43,12 @@ export class SkillsComponent implements OnInit {
 
   skillsBackend: Skill[] = [
     {
+      name: 'NODE JS',
+      description: 'Intermediate knowledge in Node JS REST API',
+      logo: '../../../../assets/images/nodejs-logo.png',
+      styleClass: 'nodeHover'
+    },
+    {
       name: 'ASP .Net Core',
       description: 'Basic knowledge in ASP .Net Core oriented towards microservices',
       logo: '../../../../assets/images/NETCore-logo.png',
