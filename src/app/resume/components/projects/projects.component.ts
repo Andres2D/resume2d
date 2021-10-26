@@ -55,6 +55,13 @@ export class ProjectsComponent implements OnInit {
       preview: '../../../../assets/images/adminPro.png',
       urlDeploy: 'https://adm1npr0.herokuapp.com/login',
       urlRepository: 'https://github.com/Andres2D/adminPro'
+    },
+    {
+      name: 'MotoFox App',
+      description: 'Static WebSite to launch information abpout a local businesses.',
+      preview: '../../../../assets/images/motofoxappPreview.png',
+      urlDeploy: 'https://motofox-belen.netlify.app/',
+      urlRepository: 'https://github.com/Andres2D/moto-fox-webapp'
     }
   ];
 
