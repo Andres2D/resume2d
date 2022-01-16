@@ -1,6 +1,13 @@
 .container{
     display: flex;
     justify-content: space-evenly;
+
+    div {
+        h1 {
+            text-align: center;
+            font-family: 'CodePro';
+        }
+    }
 }
 
 h1{
@@ -19,10 +26,6 @@ h1{
     color: white;
 }
 
-.container > div > h1{
-    text-align: center;
-    font-family: 'CodePro';
-}
 
 .content{
     display: flex;
@@ -31,73 +34,96 @@ h1{
 }
 
 .card{
-    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px, rgb(209, 213, 219) 0px 0px 0px 1px inset;
-    border-radius: 10px;
+    box-shadow: .25rem .375rem rgba(0,0,0,.09);
+    border: 1px solid rgba(0,0,0,.09);
+    border-radius: 4px;
     transition: 0.3s;
     width: 40%;
     padding: 2px 16px;
     cursor: pointer;
     margin-bottom: 10px;
     transition: all 300ms;
+
+    h3 {
+        font-family: 'CodePro';
+        text-align: center;
+    }
+
+    p {
+        font-family: 'CodeLight';
+    }
+
+    &:hover.htmlHover {
+        background-color: #e34f26;
+        color: white;
+    }
+
+    &:hover.cssHover {
+        background-color: #0d73b7;
+        color: white;
+    }
+
+    &:hover.sassHover {
+        background-color: #cf639a;
+        color: white;
+    }
+
+    &:hover.jsHover {
+        background-color: #f7df1e;
+        color: black;
+    }
+
+    &:hover.tsHover {
+        background-color: #007acc;
+        color: white;
+    }
+
+    &:hover.angularHover {
+        background-color: #e23237;
+        color: white;
+    }
+
+    &:hover.netHover {
+        background-color: #5c2992;
+        color: white;
+    }
+
+    &:hover.mysqlHover {
+        background-color: #4479a1;
+        color: white;
+    }
+
+    &:hover.nodeHover {
+        background-color: #222f56;
+        color: white;
+    }
+    
+    &:hover.mongoHover {
+        background-color: #0a3430;
+        color: white;
+    }
 }
 
-.card > h3{
-    font-family: 'CodePro';
-    text-align: center;
+.frontEnd {
+    .content {
+        .card {
+            img {
+                width: 50px;
+                height: auto;
+            }
+        }
+    }
 }
 
-.card > p{
-    font-family: 'CodeLight';
-}
-
-.frontEnd > .content > .card > img {
-    width: 50px;
-    height: auto;
-}
-
-.backEnd > .content > .card > img {
-    width: 70px;
-    height: auto;
-}
-
-.card:hover.htmlHover {
-    background-color: #e34f26;
-    color: white;
-}
-
-.card:hover.cssHover {
-    background-color: #0d73b7;
-    color: white;
-}
-
-.card:hover.jsHover {
-    background-color: #f7df1e;
-    color: black;
-}
-
-.card:hover.tsHover {
-    background-color: #007acc;
-    color: white;
-}
-
-.card:hover.angularHover {
-    background-color: #e23237;
-    color: white;
-}
-
-.card:hover.netHover {
-    background-color: #5c2992;
-    color: white;
-}
-
-.card:hover.mysqlHover {
-    background-color: #4479a1;
-    color: white;
-}
-
-.card:hover.nodeHover {
-    background-color: #222f56;
-    color: white;
+.backEnd {
+    .content {
+        .card {
+            img {
+                width: 70px;
+                height: auto;
+            }
+        }
+    }
 }
 
 /* Responsive */
@@ -113,9 +139,11 @@ h1{
         flex-direction: column;
     }
 
-    .content .card{
-        width: 90%;
-        margin: 0px auto;
-        margin-bottom: 10px;
+    .content {
+        .card{
+            width: 90%;
+            margin: 0px auto;
+            margin-bottom: 10px;
+        } 
     }
 }

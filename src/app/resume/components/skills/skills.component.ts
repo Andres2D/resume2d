@@ -22,6 +22,12 @@ export class SkillsComponent implements OnInit {
       styleClass: 'cssHover'
     },
     {
+      name: 'Sass',
+      description: 'Advanced knowledge in preprocessor Sass',
+      logo: '../../../../assets/images/sass-logo.png',
+      styleClass: 'sassHover'
+    },
+    {
       name: 'JS',
       description: 'Advanced knowledge in JavaScript ES6',
       logo: '../../../../assets/images/javascript-logo.png',
@@ -59,6 +65,12 @@ export class SkillsComponent implements OnInit {
       description: 'Basic-intermediate knowledge in relational databases MySql, MariaDB',
       logo: '../../../../assets/images/mysql-logo.png',
       styleClass: 'mysqlHover'
+    },
+    {
+      name: 'MongoDB',
+      description: 'Basic-intermediate knowledge in NoSQL data base',
+      logo: '../../../../assets/images/mongo-logo.png',
+      styleClass: 'mongoHover'
     }
   ];
 
