@@ -4,7 +4,7 @@ h1{
     font-family: 'Bear';
 }
 
-.content{
+.content {
     display: flex;
     justify-content: space-evenly;
     width: 70%;
@@ -12,7 +12,7 @@ h1{
     margin: 0px auto;
 }
 
-.card{
+.card {
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     border-radius: 10px;
     transition: 0.3s;
@@ -22,28 +22,27 @@ h1{
     background-color: whitesmoke;
     margin-top: 10px;
     flex: 0 1 30%;
-}
 
-.card > img {
-    margin-top: 10px;
-    width: 100%;
-}
+    img {
+        margin-top: 10px;
+        width: 100%;
+    }
 
-.card > h3{
-    font-family: 'CodePro';
-    text-align: center;
-}
+    h3 {
+        font-family: 'CodePro';
+        text-align: center;
+    }
 
-.card > p{
-    font-family: 'CodeLight';
-    text-align: center;
-}
+    p {
+        font-family: 'CodeLight';
+        text-align: center;
+    }
 
-.card:hover{
-    box-shadow: 1px 1px 20px #cccc inset;
-    transform: scale(1.05,1.05);
+    &:hover {
+        box-shadow: 1px 1px 20px #cccc;
+        transform: scale(1.05,1.05);
+    }
 }
-
 
 .links{
     display: flex;
@@ -56,11 +55,12 @@ i{
     color: #595d5f;
     margin-right: 10px;
     margin-bottom: 0px;
+
+    &:hover {
+        color: #476a84;
+    }
 }
 
-i:hover {
-    color: #476a84;
-}
 
 @media (max-width: 970px) {
     .content{
