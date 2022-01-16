@@ -4,7 +4,7 @@ import { Project } from '../../../interfaces/projects.interface';
 @Component({
   selector: 'app-projects',
   templateUrl: './projects.component.html',
-  styleUrls: ['./projects.component.css']
+  styleUrls: ['./projects.component.scss']
 })
 export class ProjectsComponent implements OnInit {
 

@@ -4,7 +4,7 @@ import { SettingsService } from 'src/app/services/settings.service';
 @Component({
   selector: 'app-theme-control',
   templateUrl: './theme-control.component.html',
-  styleUrls: ['./theme-control.component.css']
+  styleUrls: ['./theme-control.component.scss']
 })
 export class ThemeControlComponent {
 
