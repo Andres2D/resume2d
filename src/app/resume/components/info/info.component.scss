@@ -24,7 +24,9 @@ h1{
 
 #info{
     display: flex;
-    justify-content: space-evenly;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     margin: 0px auto;
     width: 90%;
 }
@@ -56,9 +58,6 @@ h1{
 }
 
 @media (max-width: 1244px) {
-    #info{
-        flex-direction: column;
-    }
 
     #info > img{
         width: 50%;

@@ -2,7 +2,7 @@
 <div id="info">
     <div class="social">
         <div class="list" *ngFor="let social of socialMedia">
-            <img [src]="social.logo" (click)="GotoLink(social.link, social.isEmail)">
+            <img [src]="social.logo" (click)="GotoLink(social.link, social.isEmail)" [alt]="social.name">
         </div>
     </div>
     <img src="../../../../assets/images/follow.svg" alt="info">

@@ -30,14 +30,14 @@ export class ProjectsComponent implements OnInit {
     },
     {
       name: 'Landing page WOLOX',
-      description: 'A landindg page as challenge from WOLOX',
+      description: 'A landing page as a challenge from WOLOX',
       preview: '../../../../assets/images/LandingPagePreview.PNG',
       urlDeploy: 'https://flamboyant-rosalind-288be8.netlify.app/main',
       urlRepository: 'https://github.com/Andres2D/landingpage-wx'
     },
     {
       name: 'MapsApp',
-      description: 'A Map application using mapbox',
+      description: 'A Map application using Mapbox',
       preview: '../../../../assets/images/MapsAppPreview.PNG',
       urlDeploy: 'https://dazzling-hawking-69f7b6.netlify.app',
       urlRepository: 'https://github.com/Andres2D/mapsApp'
@@ -51,14 +51,14 @@ export class ProjectsComponent implements OnInit {
     },
     {
       name: 'Admin App',
-      description: 'Application to admin users and employees of an hospital.',
+      description: 'Application to admin users and employees of a hospital',
       preview: '../../../../assets/images/adminPro.png',
       urlDeploy: 'https://adm1npr0.herokuapp.com/login',
       urlRepository: 'https://github.com/Andres2D/adminPro'
     },
     {
       name: 'MotoFox App',
-      description: 'Static WebSite to launch information abpout a local businesses.',
+      description: 'Static WebSite to launch information about a local businesses',
       preview: '../../../../assets/images/motofoxappPreview.png',
       urlDeploy: 'https://motofox-belen.netlify.app/',
       urlRepository: 'https://github.com/Andres2D/moto-fox-webapp'
