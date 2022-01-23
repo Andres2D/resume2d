@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 import { Skill } from '../../../interfaces/skills.interface';
 
 @Component({
@@ -6,7 +6,7 @@ import { Skill } from '../../../interfaces/skills.interface';
   templateUrl: './skills.component.html',
   styleUrls: ['./skills.component.scss']
 })
-export class SkillsComponent implements OnInit {
+export class SkillsComponent {
 
   skillsFrontend: Skill[] = [
     {
@@ -73,9 +73,4 @@ export class SkillsComponent implements OnInit {
       styleClass: 'mongoHover'
     }
   ];
-
-  constructor() { }
-
-  ngOnInit() {
-  }
 }
