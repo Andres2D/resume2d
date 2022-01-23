@@ -4,4 +4,5 @@ export interface WorkExperience {
     from: number;
     to?: number;
     description: string;
+    link?: string;
 }

@@ -9,6 +9,12 @@ h1{
     height: 50%;
     background-color: whitesmoke;
     border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .social img{
@@ -29,7 +35,6 @@ h1{
 
 .list{
     display: flex;
-    justify-content: start;
     margin-left: 20px;
 }
 
