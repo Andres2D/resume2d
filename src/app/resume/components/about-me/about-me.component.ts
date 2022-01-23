@@ -7,9 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AboutMeComponent {
   description: string = `
-    I'm a software developer committed to my work, I enjoy creating quality and creative solutions,
-    I specialize in web development focused on Frontend, I am finishing my college carrer in software 
-    engineering and I already have extensive experience in the field as a developer,
-    I like the football and videogames, I also enjoy good music.
+    Hi, I'm Andres. I'm a software engineer from Colombia, 
+    committed to my work. I enjoy learning new ways to write code 
+    and to improve my skills. Every day I try to do it better than 
+    the last day. Also enjoy the music, playing video games and football. 
   `;
 }
