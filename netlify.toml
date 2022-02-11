@@ -1,0 +1,5 @@
+[[redirects]]
+  frin = "/*"
+  top = "/index.html"
+  status = 200
+  
