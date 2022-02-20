@@ -1,9 +1,11 @@
 <h1 class="section-title">Contact me</h1>
-<div id="info">
-    <div class="social">
-        <div class="list" *ngFor="let social of socialMedia">
-            <img [src]="social.logo" (click)="GotoLink(social.link, social.isEmail)" [alt]="social.name">
-        </div>
-    </div>
-    <img src="../../../../assets/images/follow.svg" alt="info">
+<div class="list">
+    <img 
+        *ngFor="let social of socialMedia" 
+        class="social-pic" 
+        [src]="social.logo" 
+        (click)="GotoLink(social.link, social.isEmail)" 
+        [alt]="social.name"
+    >
 </div>
+

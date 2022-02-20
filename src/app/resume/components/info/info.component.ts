@@ -34,6 +34,12 @@ export class InfoComponent implements OnInit {
       isEmail: false
     },
     {
+      name: 'stackblitz',
+      link: 'https://stackblitz.com/@Andres2D',
+      logo: '../../../../assets/SVG/stackblitz.png',
+      isEmail: false
+    },
+    {
       name: 'codepen',
       link: 'https://codepen.io/Andres2D',
       logo: '../../../../assets/SVG/codepen.svg',
