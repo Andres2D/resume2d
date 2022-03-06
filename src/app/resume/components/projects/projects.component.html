@@ -1,12 +1,14 @@
-<h1 class="section-title">Projects</h1>
-<div class="content">
-    <div class="card" *ngFor="let project of projects">
-        <img class="active" [src]="project.preview">
-        <h3>{{project.name}}</h3> 
-        <p>{{project.description}}</p>
-        <div class="links">
-            <i (click)="GoApplication(project.urlRepository)" class="fab fa-github-alt"></i>
-            <i *ngIf="project.urlDeploy.length > 0" (click)="GoApplication(project.urlDeploy)" class="fas fa-external-link-square-alt"></i>
+<div class="projects">
+    <h1 class="section-title">Projects</h1>
+    <div class="content">
+        <div class="card" *ngFor="let project of projects">
+            <img class="active" [src]="project.preview">
+            <h3>{{project.name}}</h3> 
+            <p>{{project.description}}</p>
+            <div class="links">
+                <i (click)="GoApplication(project.urlRepository)" class="fab fa-github-alt"></i>
+                <i *ngIf="project.urlDeploy.length > 0" (click)="GoApplication(project.urlDeploy)" class="fas fa-external-link-square-alt"></i>
+            </div>
         </div>
     </div>
 </div>

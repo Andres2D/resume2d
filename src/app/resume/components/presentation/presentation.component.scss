@@ -4,6 +4,13 @@
     align-items: center;
     justify-content: center;
     padding-top: 50px;
+    height: 100vh;
+
+    .description {
+        height: 180px;
+        padding: 20px;
+        overflow-y: auto;
+    }
 }
 
 .svg-control {
@@ -51,5 +58,11 @@
 @media (max-width: 320px) {
     h2{
         font-size: 20px;
+    }
+}
+
+@media (max-height: 813px) {
+    .presentation {
+        height: auto;
     }
 }

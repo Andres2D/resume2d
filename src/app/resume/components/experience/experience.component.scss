@@ -1,8 +1,8 @@
-.container{
+.container {
     display: flex;
     justify-content: space-around;
-    margin-top: 50px;
     align-items: center;
+    height: 100vh;
 }
 
 .content > h1{
@@ -73,11 +73,16 @@ img {
     }
 
     .container img{
-        width: 50%;
+        width: 150px;
         height: auto;
         margin: 0px auto;
         margin-top: 50px;
     }
 }
 
+@media (max-height: 813px) {
+    .container {
+        height: auto;
+    }
+}
 
