@@ -73,4 +73,43 @@ export class SkillsComponent {
       styleClass: 'mongoHover'
     }
   ];
+
+  othersSkills: Skill[] = [
+    {
+      name: 'git',
+      description: 'Intermediate knowledge in Node JS REST API',
+      logo: '../../../../assets/images/git-logo.png',
+      styleClass: 'git'
+    },
+    {
+      name: 'GitHub',
+      description: 'Intermediate knowledge in Node JS REST API',
+      logo: '../../../../assets/images/github-logo.png',
+      styleClass: 'gitHub'
+    },
+    {
+      name: 'GitLab',
+      description: 'Intermediate knowledge in Node JS REST API',
+      logo: '../../../../assets/images/gitlab-logo.svg',
+      styleClass: 'gitLab'
+    },
+    {
+      name: 'contentful',
+      description: 'Intermediate knowledge in Node JS REST API',
+      logo: '../../../../assets/images/contentful-logo.png',
+      styleClass: 'cms'
+    },
+    {
+      name: 'Jest',
+      description: 'Intermediate knowledge in Node JS REST API',
+      logo: '../../../../assets/images/jest-logo.png',
+      styleClass: 'jest'
+    },
+    {
+      name: 'Storybooks',
+      description: 'Intermediate knowledge in Node JS REST API',
+      logo: '../../../../assets/images/storybooks-logo.svg',
+      styleClass: 'storybooks'
+    },
+  ];
 }

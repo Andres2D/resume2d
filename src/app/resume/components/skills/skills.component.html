@@ -38,4 +38,23 @@
             </div>
         </div>
     </div>
+    <div class="others">
+        <h1>Others</h1>
+        <div class="content">
+            <div class="card" 
+                        *ngFor="let skill of othersSkills"
+                        [ngClass]="{
+                            'git': skill.styleClass == 'git',
+                            'gitHub': skill.styleClass == 'gitHub',
+                            'gitLab': skill.styleClass == 'gitLab',
+                            'cms': skill.styleClass == 'cms',
+                            'jest': skill.styleClass == 'jest',
+                            'storybooks': skill.styleClass == 'storybooks'
+                        }">
+                <h3>{{skill.name}}</h3> 
+                <p>{{skill.description}}</p> 
+                <img [src]="skill.logo" alt="">
+            </div>
+        </div>
+    </div>
 </div>

@@ -1,5 +1,5 @@
 .skills {
-    height: 100vh;
+    // height: 100vh;
 }
 
 .container{
@@ -33,14 +33,28 @@ h1{
     border-top-left-radius: 110px; 
 }
 
+.others {
+    margin-bottom: 100px;
 
-.content{
+    .content {
+        .card {
+            width: 130px;
+            img {
+                width: 50px;
+                height: auto;
+            }
+        }
+    }
+    
+}
+
+.content {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
 }
 
-.card{
+.card {
     box-shadow: .25rem .375rem rgba(0,0,0,.09);
     border: 1px solid rgba(0,0,0,.09);
     border-radius: 4px;
@@ -107,6 +121,36 @@ h1{
     
     &:hover.mongoHover {
         background-color: #0a3430;
+        color: white;
+    }
+
+    &:hover.git {
+        background-color: white;
+        color: black;
+    }
+    
+    &:hover.gitHub {
+        background-color: white;
+        color: black;
+    }
+   
+    &:hover.gitLab {
+        background-color: #f66425;
+        color: white;
+    }
+   
+    &:hover.cms {
+        background-color: #fae505;
+        color: black;
+    }
+    
+    &:hover.jest {
+        background-color: #c63d14;
+        color: white;
+    }
+   
+    &:hover.storybooks {
+        background-color: #f54785;
         color: white;
     }
 }
