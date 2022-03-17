@@ -77,39 +77,40 @@ export class SkillsComponent {
   othersSkills: Skill[] = [
     {
       name: 'git',
-      description: 'Intermediate knowledge in Node JS REST API',
+      description: 'Intermediate knowledge in version control system',
       logo: '../../../../assets/images/git-logo.png',
       styleClass: 'git'
     },
     {
       name: 'GitHub',
-      description: 'Intermediate knowledge in Node JS REST API',
+      description: 'Intermediate knowledge in GitHub cloud version control',
       logo: '../../../../assets/images/github-logo.png',
       styleClass: 'gitHub'
     },
     {
       name: 'GitLab',
-      description: 'Intermediate knowledge in Node JS REST API',
+      description: 'Basic knowledge in GitLab cloud version control',
       logo: '../../../../assets/images/gitlab-logo.svg',
       styleClass: 'gitLab'
     },
     {
       name: 'contentful',
-      description: 'Intermediate knowledge in Node JS REST API',
+      description: 'Basic knowledge in content management platform contenful',
       logo: '../../../../assets/images/contentful-logo.png',
       styleClass: 'cms'
     },
     {
       name: 'Jest',
-      description: 'Intermediate knowledge in Node JS REST API',
+      description: 'Intermediate knowledge in JavaScript testing framework JEST',
       logo: '../../../../assets/images/jest-logo.png',
       styleClass: 'jest'
     },
     {
-      name: 'Storybooks',
-      description: 'Intermediate knowledge in Node JS REST API',
+      name: 'Storybook',
+      description: 'Intermediate knowledge UI tool Storybook',
       logo: '../../../../assets/images/storybooks-logo.svg',
       styleClass: 'storybooks'
     },
   ];
 }
+
