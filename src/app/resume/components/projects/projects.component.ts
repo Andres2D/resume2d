@@ -62,6 +62,13 @@ export class ProjectsComponent implements OnInit {
       preview: '../../../../assets/images/motofoxappPreview.png',
       urlDeploy: 'https://motofox-belen.netlify.app/',
       urlRepository: 'https://github.com/Andres2D/moto-fox-webapp'
+    },
+    {
+      name: 'Cotejo App',
+      description: 'A funny application to schedule matchs of football',
+      preview: '../../../../assets/images/cotejoAppPreview.png',
+      urlDeploy: 'https://cotejo-app-beta.netlify.app/login',
+      urlRepository: 'https://github.com/Andres2D/cotejo-app-front'
     }
   ];
 
