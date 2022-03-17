@@ -198,6 +198,14 @@ h1{
         flex-direction: column;
     }
 
+    .others {
+        .content {
+            .card {
+                width: 90%;
+            }
+        }
+    }
+
     .content {
         .card{
             width: 90%;
