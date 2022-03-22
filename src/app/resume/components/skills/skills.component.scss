@@ -34,11 +34,17 @@ h1{
 }
 
 .others {
+    background-color: #6b7b8e;
+    padding-top: 50px;
+    padding-bottom: 50px;
     margin-bottom: 100px;
+    color: white;
+    border-bottom-left-radius: 110px; 
+    border-bottom-right-radius: 110px; 
 
     .content {
         .card {
-            width: 130px;
+            width: 40%;
             img {
                 width: 50px;
                 height: auto;
@@ -189,6 +195,11 @@ h1{
 
     .backEnd{
         border-top-left-radius: 0;
+    }
+
+    .others {
+        border-bottom-left-radius: 0; 
+        border-bottom-right-radius: 0; 
     }
 }
 
