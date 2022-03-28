@@ -1,66 +1,84 @@
-.presentation{
+@import '../../../styles/colors';
+@import '../../../styles/breaks';
+
+.about {
+    height: 100vh;
+    padding-top: 50px;
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
-    padding-top: 50px;
-    height: 100vh;
+    align-items: center;
 
-    .description {
-        padding: 20px;
+    .section-title {
+        font-family: 'Bear';
+        margin: 0;
     }
-}
-
-.svg-control {
-    position:absolute; 
-    top: 0;
-    width: 100%; 
-    height: 322px;
-    z-index: -999;
-}
-
-.role {
-    width: 270px;
-    animation: typing 2s steps(20), blink .5s step-end infinite alternate;
-    white-space: nowrap;
-    overflow: hidden;
-    border-right: 3px solid;
-    font-family: 'CodeLight';
-    font-size: 25px;
-}   
-
-@keyframes typing {
-    from {
-        width: 0
-    }
-}
-
-@keyframes blink {
-  50% {
-    border-color: transparent
-  }
-}
-
-@media (max-width: 750px) {
+    
     .presentation {
-        padding-top: 8px;
-    } 
-}
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-evenly;
+        padding-top: 50px;
 
-@media (max-width: 390px) {
-    h1{
-        font-size: 40px;
+        .profile-photo {
+            width: 200px;
+            border-radius: 50px;
+            border: 10px solid $indigo-dark;
+        }
+    
+        .description {
+            width: 50%;
+            background-color: ghostwhite;
+            font-family: 'Bear';
+            padding: 30px;
+            border-radius: 10px;
+            font-size: 20px;
+            border: 2px solid black;
+        }
+    }
+
+    .properties {
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 20px;
+
+        .property {
+            font-family: 'Bear';
+            font-size: 25px;
+            width: 210px;
+            text-align: center;
+            
+            .description {  
+                font-size: 20px;
+            }
+
+            .front {
+                color: #97A6DC;
+            }
+
+            .back {
+                color: #4A66C3;
+            }
+        }
     }
 }
 
-@media (max-width: 320px) {
-    h2{
-        font-size: 20px;
-    }
-}
-
-@media (max-height: 813px) {
-    .presentation {
+@media (max-width: $big) {
+    .about {
         height: auto;
+
+        .profile-photo {
+            margin-bottom: 20px;
+        }
+
+        .presentation {
+            align-items: center;
+            flex-direction: column;
+        }
+
+        .properties {
+            align-items: center;
+            flex-direction: column;
+        }
     }
 }

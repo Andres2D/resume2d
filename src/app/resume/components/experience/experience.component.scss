@@ -1,46 +1,57 @@
-.container {
+@import '../../../styles/colors';
+@import '../../../styles/breaks';
+
+.experience {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    flex-direction: column;
     align-items: center;
     height: 100vh;
+    background-color: whitesmoke;
+
+    .section-title {
+        font-family: 'Bear';
+    }
+    
+    .container {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+
+        .content {
+
+            .place {
+                cursor: pointer;
+                border-radius: 10px;
+                padding: 10px 30px;
+                background-color: ghostwhite;
+                margin-bottom: 5px;
+                box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+                transition: all 300ms;
+
+                &:hover {
+                    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+                    background-color: $indigo-dark;
+                    color: white;
+                }
+            }
+
+            h1 {
+                font-family: 'Bear';
+
+                small {
+                    font-size: 20px;
+                }
+            }
+        }
+    }
 }
 
-.content > h1{
-    font-family: 'Bear';
-}
-
-h1 > small {
-    font-size: 20px;
-}
-
-h1{
-    font-family: 'CodePro';
-}
-
-.content{
-    display: flex;
-    flex-direction: column;
-}
-
-ul{
+ul {
     list-style: none;
 }
 
-li{
-    cursor: pointer;
-    border-radius: 10px;
-    padding: 10px 30px;
-    background-color: ghostwhite;
-    margin-bottom: 5px;
-    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
-    transition: all 300ms;
-}
-
-li:hover {
-    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
-    background-color: #476a84;
-    color: white;
-}
 
 h3{
     font-family: 'CodePro';
@@ -55,34 +66,27 @@ img {
     filter: drop-shadow(2px 5px 2px rgba(0, 0, 0, 0.3))
 }
 
-
-/* Responsive */
-@media (max-width: 1100px) {
-    .container{
-        flex-direction: column;
-    }
-
-    .content h1{
-        text-align: center;
-    }
-
-    .content ul{
-        list-style: none;
-        margin: 0px auto;
-        padding: 0px;
-    }
-
-    .container img{
-        width: 150px;
+@media (max-width: $x-big) {
+    .experience {
         height: auto;
-        margin: 0px auto;
-        margin-top: 50px;
+        padding-top: 50px;
+        padding-bottom: 30px;
+    }
+
+    img {
+        width: 200px;
     }
 }
 
-@media (max-height: 813px) {
-    .container {
-        height: auto;
-    }
+@media (max-width: $big) {
+    .experience {
+        .container {
+            flex-direction: column;
+            .content {
+                .list {
+                    padding-left: 0;
+                }
+            }
+        }
+    }   
 }
-

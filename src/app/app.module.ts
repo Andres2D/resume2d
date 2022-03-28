@@ -11,6 +11,7 @@ import { ProjectsComponent } from './resume/components/projects/projects.compone
 import { InfoComponent } from './resume/components/info/info.component';
 import { FooterComponent } from './shared/footer/footer.component';
 import { ThemeControlComponent } from './shared/theme-control/theme-control.component';
+import { IntroComponent } from './resume/components/intro/intro.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { ThemeControlComponent } from './shared/theme-control/theme-control.comp
     ProjectsComponent,
     InfoComponent,
     FooterComponent,
-    ThemeControlComponent
+    ThemeControlComponent,
+    IntroComponent
   ],
   imports: [
     BrowserModule,

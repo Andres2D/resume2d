@@ -1,59 +1,44 @@
 <div class="skills">
     <h1 class="section-title">Skills</h1>
-    <div class="container">
-        <div class="frontEnd">
-            <h1>Frontend</h1>
-            <div class="content">
-                <div class="card" 
-                            *ngFor="let skill of skillsFrontend"
-                            [ngClass]="{
-                                'htmlHover': skill.styleClass == 'htmlHover',
-                                'cssHover': skill.styleClass == 'cssHover',
-                                'jsHover': skill.styleClass == 'jsHover',
-                                'tsHover': skill.styleClass == 'tsHover',
-                                'angularHover': skill.styleClass == 'angularHover',
-                                'sassHover': skill.styleClass == 'sassHover'
-                            }">
-                    <h3>{{skill.name}}</h3> 
-                    <p>{{skill.description}}</p> 
-                    <img [src]="skill.logo" alt="">
-                </div>
-            </div>
-        </div> 
-        <div class="backEnd">
-            <h1>Backend</h1>
-            <div class="content">
-                <div class="card" 
-                            *ngFor="let skill of skillsBackend"
-                            [ngClass]="{
-                                'netHover': skill.styleClass == 'netHover',
-                                'mysqlHover': skill.styleClass == 'mysqlHover',
-                                'nodeHover': skill.styleClass == 'nodeHover',
-                                'mongoHover': skill.styleClass == 'mongoHover'
-                            }">
-                    <h3>{{skill.name}}</h3> 
-                    <p>{{skill.description}}</p> 
-                    <img [src]="skill.logo" alt="">
-                </div>
+
+    <section class="section">
+        <div class="topic">
+            <h1 class="section-title skill">Frontend</h1>
+            <div *ngFor="let front of skillsFrontend" class="bar">    
+                <h3 class="skill-title">{{front.name}}</h3>
+                <div class="progress progress-moved">
+                    <div class="progress-bar" [ngStyle]="{'width': front.progress}">
+                        <small class="progress-value">{{front.progress}}</small>
+                    </div>                       
+                </div> 
             </div>
         </div>
-    </div>
-    <div class="others">
-        <div class="content">
-            <div class="card" 
-                        *ngFor="let skill of othersSkills"
-                        [ngClass]="{
-                            'git': skill.styleClass == 'git',
-                            'gitHub': skill.styleClass == 'gitHub',
-                            'gitLab': skill.styleClass == 'gitLab',
-                            'cms': skill.styleClass == 'cms',
-                            'jest': skill.styleClass == 'jest',
-                            'storybooks': skill.styleClass == 'storybooks'
-                        }">
-                <h3>{{skill.name}}</h3> 
-                <p>{{skill.description}}</p> 
-                <img [src]="skill.logo" alt="">
+    
+        <div class="topic">
+            <h1 class="section-title skill">Backend</h1>
+            <div *ngFor="let back of skillsBackend" class="bar">    
+                <h3 class="skill-title">{{back.name}}</h3>
+                <div class="progress progress-moved">
+                    <div class="progress-bar" [ngStyle]="{'width': back.progress}">
+                        <small class="progress-value">{{back.progress}}</small>
+                    </div>                       
+                </div> 
             </div>
         </div>
-    </div>
+
+        <div class="topic">
+            <h1 class="section-title skill">Others</h1>
+            <div *ngFor="let other of othersSkills" class="bar">    
+                <h3 class="skill-title">{{other.name}}</h3>
+                <div class="progress progress-moved">
+                    <div class="progress-bar" [ngStyle]="{'width': other.progress}">
+                        <small class="progress-value">{{other.progress}}</small>
+                    </div>                       
+                </div> 
+            </div>
+        </div>
+    </section>
+
+    
+
 </div>

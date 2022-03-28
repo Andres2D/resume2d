@@ -11,105 +11,77 @@ export class SkillsComponent {
   skillsFrontend: Skill[] = [
     {
       name: 'HTML',
-      description: 'Intermediate-advanced knowledge in HTML5',
-      logo: '../../../../assets/images/html5-logo.png',
-      styleClass: 'htmlHover'
+      progress: '80%'
     },
     {
       name: 'CSS',
-      description: 'Intermediate-advanced knowledge in CSS3',
-      logo: '../../../../assets/images/css3-logo.png',
-      styleClass: 'cssHover'
+      progress: '70%'
     },
     {
       name: 'Sass',
-      description: 'Advanced knowledge in preprocessor Sass',
-      logo: '../../../../assets/images/sass-logo.png',
-      styleClass: 'sassHover'
+      progress: '50%'
     },
     {
       name: 'JS',
-      description: 'Advanced knowledge in JavaScript ES6',
-      logo: '../../../../assets/images/javascript-logo.png',
-      styleClass: 'jsHover'
+      progress: '70%'
     },
     {
       name: 'TS',
-      description: 'Advanced knowledge in TypeScript',
-      logo: '../../../../assets/images/typescript-logo.png',
-      styleClass: 'tsHover'
+      progress: '60%'
     },
     {
       name: 'Angular',
-      description: 'Advanced knowledge in Angular',
-      logo: '../../../../assets/images/angular-logo.png',
-      styleClass: 'angularHover'
+      progress: '90%'
+    },
+    {
+      name: 'React',
+      progress: '30%'
     }
   ];
 
   skillsBackend: Skill[] = [
     {
       name: 'NODE JS',
-      description: 'Intermediate knowledge in Node JS REST API',
-      logo: '../../../../assets/images/nodejs-logo.png',
-      styleClass: 'nodeHover'
+      progress: '50%'
     },
     {
       name: 'ASP .Net Core',
-      description: 'Basic knowledge in ASP .Net Core oriented towards microservices',
-      logo: '../../../../assets/images/NETCore-logo.png',
-      styleClass: 'netHover'
+      progress: '30%'
     },
     {
       name: 'MySql',
-      description: 'Basic-intermediate knowledge in relational databases MySql, MariaDB',
-      logo: '../../../../assets/images/mysql-logo.png',
-      styleClass: 'mysqlHover'
+      progress: '30%'
     },
     {
       name: 'MongoDB',
-      description: 'Basic-intermediate knowledge in NoSQL data base',
-      logo: '../../../../assets/images/mongo-logo.png',
-      styleClass: 'mongoHover'
+      progress: '40%'
     }
   ];
 
   othersSkills: Skill[] = [
     {
       name: 'git',
-      description: 'Intermediate knowledge in version control system',
-      logo: '../../../../assets/images/git-logo.png',
-      styleClass: 'git'
+      progress: '80%'
     },
     {
       name: 'GitHub',
-      description: 'Intermediate knowledge in GitHub cloud version control',
-      logo: '../../../../assets/images/github-logo.png',
-      styleClass: 'gitHub'
+      progress: '80%'
     },
     {
       name: 'GitLab',
-      description: 'Basic knowledge in GitLab cloud version control',
-      logo: '../../../../assets/images/gitlab-logo.svg',
-      styleClass: 'gitLab'
+      progress: '60%'
     },
     {
       name: 'contentful',
-      description: 'Basic knowledge in content management platform contenful',
-      logo: '../../../../assets/images/contentful-logo.png',
-      styleClass: 'cms'
+      progress: '30%'
     },
     {
       name: 'Jest',
-      description: 'Intermediate knowledge in JavaScript testing framework JEST',
-      logo: '../../../../assets/images/jest-logo.png',
-      styleClass: 'jest'
+      progress: '80%'
     },
     {
       name: 'Storybook',
-      description: 'Intermediate knowledge UI tool Storybook',
-      logo: '../../../../assets/images/storybooks-logo.svg',
-      styleClass: 'storybooks'
+      progress: '50%'
     },
   ];
 }

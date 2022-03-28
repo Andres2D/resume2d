@@ -1,233 +1,72 @@
+@import '../../../styles/colors';
+@import '../../../styles/breaks';
+
 .skills {
-    // height: 100vh;
-}
-
-.container{
     display: flex;
-    justify-content: space-evenly;
-
-    div {
-        h1 {
-            text-align: center;
-            font-family: 'CodePro';
-        }
-    }
-}
-
-h1{
-    font-family: 'Bear';
-    text-align: center;
-}
-
-.frontEnd{
-    width: 100%;
-    background-color: ghostwhite;
-    position: relative;
-    border-top-right-radius: 110px;
-}
-
-.backEnd{
-    width: 100%;
-    background-color: #595d5f;
-    color: white;
-    border-top-left-radius: 110px; 
-}
-
-.others {
-    background-color: #6b7b8e;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
     padding-top: 50px;
     padding-bottom: 50px;
-    margin-bottom: 100px;
-    color: white;
-    border-bottom-left-radius: 110px; 
-    border-bottom-right-radius: 110px; 
-
-    .content {
-        .card {
-            width: 40%;
-            img {
-                width: 50px;
-                height: auto;
-            }
-        }
-    }
     
-}
-
-.content {
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-}
-
-.card {
-    box-shadow: .25rem .375rem rgba(0,0,0,.09);
-    border: 1px solid rgba(0,0,0,.09);
-    border-radius: 4px;
-    transition: 0.3s;
-    width: 40%;
-    padding: 2px 16px;
-    cursor: pointer;
-    margin-bottom: 10px;
-    transition: all 300ms;
-
-    h3 {
-        font-family: 'CodePro';
-        text-align: center;
+    .section-title {
+        font-family: 'Bear';
     }
 
-    p {
-        font-family: 'CodeLight';
+    .skill {
+        color: $indigo-medium;
     }
 
-    &:hover.htmlHover {
-        background-color: #e34f26;
-        color: white;
-    }
+    .section {
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        width: 100%;
 
-    &:hover.cssHover {
-        background-color: #0d73b7;
-        color: white;
-    }
+        .topic {
+            .bar {
+                margin: 30px 10px;
+                width: 300px;
+                text-align: center;
 
-    &:hover.sassHover {
-        background-color: #cf639a;
-        color: white;
-    }
+                .skill-title {
+                    font-family: 'Bear';
+                    text-align: left;
+                }
+        
+                .progress {
+                    padding: 6px;
+                    border-radius: 30px;
+                    background: $indigo-light;  
+                    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25), 0 1px rgba(255, 255, 255, 0.08);
+                }
+                    
+                .progress-bar {
+                    height: 18px;
+                    border-radius: 30px;   
 
-    &:hover.jsHover {
-        background-color: #f7df1e;
-        color: black;
-    }
-
-    &:hover.tsHover {
-        background-color: #007acc;
-        color: white;
-    }
-
-    &:hover.angularHover {
-        background-color: #e23237;
-        color: white;
-    }
-
-    &:hover.netHover {
-        background-color: #5c2992;
-        color: white;
-    }
-
-    &:hover.mysqlHover {
-        background-color: #4479a1;
-        color: white;
-    }
-
-    &:hover.nodeHover {
-        background-color: #222f56;
-        color: white;
-    }
-    
-    &:hover.mongoHover {
-        background-color: #0a3430;
-        color: white;
-    }
-
-    &:hover.git {
-        background-color: white;
-        color: black;
-    }
-    
-    &:hover.gitHub {
-        background-color: white;
-        color: black;
-    }
-   
-    &:hover.gitLab {
-        background-color: #f66425;
-        color: white;
-    }
-   
-    &:hover.cms {
-        background-color: #fae505;
-        color: black;
-    }
-    
-    &:hover.jest {
-        background-color: #c63d14;
-        color: white;
-    }
-   
-    &:hover.storybooks {
-        background-color: #f54785;
-        color: white;
-    }
-}
-
-.frontEnd {
-    .content {
-        .card {
-            img {
-                width: 50px;
-                height: auto;
-            }
+                    .progress-value {
+                        font-family: 'Bear';
+                        color: white;
+                    }
+                }
+                    
+                .progress-moved .progress-bar {
+                    background-color: $indigo-medium;  
+                }
+            }      
         }
     }
 }
 
-.backEnd {
-    .content {
-        .card {
-            img {
-                width: 70px;
-                height: auto;
-            }
-        }
-    }
-}
-
-/* Responsive */
-@media (max-width: 800px) {
-    .container{
-        flex-direction: column;
-    }
-
-    .frontEnd{
-        border-top-right-radius: 0;
-    }
-
-    .backEnd{
-        border-top-left-radius: 0;
-    }
-
-    .others {
-        border-bottom-left-radius: 0; 
-        border-bottom-right-radius: 0; 
-    }
-}
-
-@media (max-width: 500px) {
-    .content{
-        flex-wrap: nowrap;
-        flex-direction: column;
-    }
-
-    .others {
-        .content {
-            .card {
-                width: 90%;
-            }
-        }
-    }
-
-    .content {
-        .card{
-            width: 90%;
-            margin: 0px auto;
-            margin-bottom: 10px;
-        } 
-    }
-}
-
-@media (max-height: 857px) {
+@media (max-width: $small) {
     .skills {
-        height: auto;
+        .section {
+            .topic {
+                .bar {
+                    width: 260px;
+                }
+            }
+        }
     }
 }
