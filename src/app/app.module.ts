@@ -10,7 +10,6 @@ import { SkillsComponent } from './resume/components/skills/skills.component';
 import { ProjectsComponent } from './resume/components/projects/projects.component';
 import { InfoComponent } from './resume/components/info/info.component';
 import { FooterComponent } from './shared/footer/footer.component';
-import { ThemeControlComponent } from './shared/theme-control/theme-control.component';
 import { IntroComponent } from './resume/components/intro/intro.component';
 
 @NgModule({
@@ -23,7 +22,6 @@ import { IntroComponent } from './resume/components/intro/intro.component';
     ProjectsComponent,
     InfoComponent,
     FooterComponent,
-    ThemeControlComponent,
     IntroComponent
   ],
   imports: [
