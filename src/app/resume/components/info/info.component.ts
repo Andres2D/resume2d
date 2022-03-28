@@ -28,12 +28,6 @@ export class InfoComponent implements OnInit {
       isEmail: true
     },
     {
-      name: 'HackerRank',
-      link: 'https://www.hackerrank.com/andres2d?hr_r=1',
-      logo: '../../../../assets/SVG/hackerrank.svg',
-      isEmail: false
-    },
-    {
       name: 'stackblitz',
       link: 'https://stackblitz.com/@Andres2D',
       logo: '../../../../assets/SVG/stackblitz.png',

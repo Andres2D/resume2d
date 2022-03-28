@@ -72,7 +72,7 @@ export class SkillsComponent {
       progress: '60%'
     },
     {
-      name: 'contentful',
+      name: 'Headless CMS',
       progress: '30%'
     },
     {

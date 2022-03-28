@@ -1,11 +1,18 @@
-<h1 class="section-title">Contact me</h1>
-<div class="list">
+<div class="info">
+    <h1 class="section-title">Contact me</h1>
+    <div class="list">
+        <img 
+            *ngFor="let social of socialMedia" 
+            class="social-pic" 
+            [src]="social.logo" 
+            (click)="GotoLink(social.link, social.isEmail)" 
+            [alt]="social.name"
+        >
+    </div>
     <img 
-        *ngFor="let social of socialMedia" 
-        class="social-pic" 
-        [src]="social.logo" 
-        (click)="GotoLink(social.link, social.isEmail)" 
-        [alt]="social.name"
-    >
+        class="badge"
+        src="https://www.codewars.com/users/Andres2D/badges/large" 
+        (click)="GotoLink('https://www.codewars.com/users/Andres2D', false)"  
+        alt="codewar-badge">
 </div>
 
