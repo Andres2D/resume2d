@@ -15,6 +15,34 @@ export class ProjectsComponent implements OnInit {
 
   projects: Project[] = [
     {
+      name: 'Cotejo App',
+      description: 'A funny application to schedule matchs of football',
+      preview: '../../../../assets/images/cotejoAppPreview.png',
+      urlDeploy: 'https://cotejo-app-beta.netlify.app/login',
+      urlRepository: 'https://github.com/Andres2D/cotejo-app-front'
+    },
+    {
+      name: 'Landing page WOLOX',
+      description: 'A landing page as a challenge from WOLOX',
+      preview: '../../../../assets/images/LandingPagePreview.PNG',
+      urlDeploy: 'https://flamboyant-rosalind-288be8.netlify.app/main',
+      urlRepository: 'https://github.com/Andres2D/landingpage-wx'
+    },
+    {
+      name: 'MotoFox App',
+      description: 'Static WebSite to launch information about a local businesses',
+      preview: '../../../../assets/images/motofoxappPreview.png',
+      urlDeploy: 'https://motofox-belen.netlify.app/',
+      urlRepository: 'https://github.com/Andres2D/moto-fox-webapp'
+    },
+    {
+      name: 'Admin App',
+      description: 'Application to admin users and employees of a hospital',
+      preview: '../../../../assets/images/adminPro.png',
+      urlDeploy: 'https://adm1npr0.herokuapp.com/login',
+      urlRepository: 'https://github.com/Andres2D/adminPro'
+    },
+    {
       name: 'GifsApp',
       description: 'Basic gifs search using giphy API',
       preview: '../../../../assets/images/GifsAppPreview.PNG',
@@ -29,13 +57,6 @@ export class ProjectsComponent implements OnInit {
       urlRepository: 'https://github.com/Andres2D/countriesApp'
     },
     {
-      name: 'Landing page WOLOX',
-      description: 'A landing page as a challenge from WOLOX',
-      preview: '../../../../assets/images/LandingPagePreview.PNG',
-      urlDeploy: 'https://flamboyant-rosalind-288be8.netlify.app/main',
-      urlRepository: 'https://github.com/Andres2D/landingpage-wx'
-    },
-    {
       name: 'MapsApp',
       description: 'A Map application using Mapbox',
       preview: '../../../../assets/images/MapsAppPreview.PNG',
@@ -48,27 +69,6 @@ export class ProjectsComponent implements OnInit {
       preview: '../../../../assets/images/AuthAppPreview.PNG',
       urlDeploy: 'https://angular-auth-2d.herokuapp.com/auth/login',
       urlRepository: 'https://github.com/Andres2D/AuthApp-Backend.git'
-    },
-    {
-      name: 'Admin App',
-      description: 'Application to admin users and employees of a hospital',
-      preview: '../../../../assets/images/adminPro.png',
-      urlDeploy: 'https://adm1npr0.herokuapp.com/login',
-      urlRepository: 'https://github.com/Andres2D/adminPro'
-    },
-    {
-      name: 'MotoFox App',
-      description: 'Static WebSite to launch information about a local businesses',
-      preview: '../../../../assets/images/motofoxappPreview.png',
-      urlDeploy: 'https://motofox-belen.netlify.app/',
-      urlRepository: 'https://github.com/Andres2D/moto-fox-webapp'
-    },
-    {
-      name: 'Cotejo App',
-      description: 'A funny application to schedule matchs of football',
-      preview: '../../../../assets/images/cotejoAppPreview.png',
-      urlDeploy: 'https://cotejo-app-beta.netlify.app/login',
-      urlRepository: 'https://github.com/Andres2D/cotejo-app-front'
     }
   ];
 
