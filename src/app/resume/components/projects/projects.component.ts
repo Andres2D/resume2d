@@ -69,6 +69,13 @@ export class ProjectsComponent implements OnInit {
       preview: '../../../../assets/images/AuthAppPreview.PNG',
       urlDeploy: 'https://angular-auth-2d.herokuapp.com/auth/login',
       urlRepository: 'https://github.com/Andres2D/AuthApp-Backend.git'
+    },
+    {
+      name: '2Dice Game',
+      description: 'Dice game created on React',
+      preview: '../../../../assets/images/dice-game-perview.png',
+      urlDeploy: 'https://2dice-game.netlify.app/',
+      urlRepository: 'https://github.com/Andres2D/react-dice-game'
     }
   ];
 
