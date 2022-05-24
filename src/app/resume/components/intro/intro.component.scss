@@ -1,9 +1,14 @@
 @import '../../../styles/colors';
 @import '../../../styles/breaks';
 
+:root {
+  --doc-height: 100%;
+}
+
 .intro {
     background-color: $indigo-dark;
     height: 100vh;
+    height: var(--doc-height);
     display: flex;
     flex-direction: column;
     align-items: center;
