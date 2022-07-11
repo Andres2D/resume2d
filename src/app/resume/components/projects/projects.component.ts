@@ -36,6 +36,13 @@ export class ProjectsComponent implements OnInit {
       urlRepository: 'https://github.com/Andres2D/moto-fox-webapp'
     },
     {
+      name: "Don't Guess",
+      description: 'Trivias app based on public API, build with React',
+      preview: '../../../../assets/images/dontGuessPreview.png',
+      urlDeploy: 'https://dont-guess-beta.netlify.app/main',
+      urlRepository: 'https://github.com/Andres2D/responsa-master-react'
+    },
+    {
       name: 'Admin App',
       description: 'Application to admin users and employees of a hospital',
       preview: '../../../../assets/images/adminPro.png',
@@ -62,13 +69,6 @@ export class ProjectsComponent implements OnInit {
       preview: '../../../../assets/images/MapsAppPreview.PNG',
       urlDeploy: 'https://dazzling-hawking-69f7b6.netlify.app',
       urlRepository: 'https://github.com/Andres2D/mapsApp'
-    },
-    {
-      name: 'AuthApp',
-      description: 'A basic auth application using Node as backend and JWT to auth',
-      preview: '../../../../assets/images/AuthAppPreview.PNG',
-      urlDeploy: 'https://angular-auth-2d.herokuapp.com/auth/login',
-      urlRepository: 'https://github.com/Andres2D/AuthApp-Backend.git'
     },
     {
       name: '2Dice Game',
