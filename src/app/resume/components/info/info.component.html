@@ -7,12 +7,14 @@
             [src]="social.logo" 
             (click)="GotoLink(social.link, social.isEmail)" 
             [alt]="social.name"
+            loading="lazy"
         >
     </div>
     <img 
         class="badge"
         src="https://www.codewars.com/users/Andres2D/badges/large" 
         (click)="GotoLink('https://www.codewars.com/users/Andres2D', false)"  
-        alt="codewar-badge">
+        alt="codewar-badge"
+        loading="lazy">
 </div>
 
