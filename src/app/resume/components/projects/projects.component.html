@@ -2,7 +2,19 @@
     <h1 class="section-title">Projects</h1>
     <div class="content">
         <div class="card" *ngFor="let project of projects">
-            <img loading="lazy" class="active" [src]="project.preview" [alt]="project.name">
+            <img loading="lazy" class="preview" [src]="project.preview" [alt]="project.name">
+            <div class="engine">
+              <ng-container *ngFor="let engine of project.engine">
+                <img 
+                  loading="lazy" 
+                  class="engine-icon" 
+                  [src]="engine.svgSrc" 
+                  [alt]="engine.name"
+                  [style.width]="engine.width"
+                  [title]="engine.name"
+                >
+              </ng-container>
+            </div>
             <div class="project-info">
                 <h3>{{project.name}}</h3> 
                 <p>{{project.description}}</p>

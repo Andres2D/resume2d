@@ -17,65 +17,179 @@ export class ProjectsComponent implements OnInit {
     {
       name: 'Cotejo App',
       description: 'A funny application to schedule matchs of football',
-      preview: '../../../../assets/images/cotejoAppPreview.png',
+      preview: '../../../../assets/images/cotejo-app.png',
       urlDeploy: 'https://cotejo-app-beta.netlify.app/login',
-      urlRepository: 'https://github.com/Andres2D/cotejo-app-front'
+      urlRepository: 'https://github.com/Andres2D/cotejo-app-front',
+      engine: [
+        {
+          name: 'Angular',
+          svgSrc: '../../../../assets/SVG/angular-icon.svg',
+          width: '25px',
+          height: ''
+        },
+        {
+          name: 'Node.js',
+          svgSrc: '../../../../assets/SVG/nodejs-icon.svg',
+          width: '25px',
+          height: ''
+        },
+        {
+          name: 'google-developers',
+          svgSrc: '../../../../assets/SVG/google-developers.svg',
+          width: '30px',
+          height: ''
+        },
+        {
+          name: 'mongodb',
+          svgSrc: '../../../../assets/SVG/mongodb.svg',
+          width: '70px',
+          height: ''
+        }
+      ]
     },
     {
       name: 'Landing page WOLOX',
       description: 'A landing page as a challenge from WOLOX',
-      preview: '../../../../assets/images/LandingPagePreview.PNG',
+      preview: '../../../../assets/images/landing-page.png',
       urlDeploy: 'https://flamboyant-rosalind-288be8.netlify.app/main',
-      urlRepository: 'https://github.com/Andres2D/landingpage-wx'
+      urlRepository: 'https://github.com/Andres2D/landingpage-wx',
+      engine: [
+        {
+          name: 'Angular',
+          svgSrc: '../../../../assets/SVG/angular-icon.svg',
+          width: '25px',
+          height: ''
+        }
+      ]
     },
     {
       name: 'MotoFox App',
       description: 'Static WebSite to launch information about a local businesses',
-      preview: '../../../../assets/images/motofoxappPreview.png',
+      preview: '../../../../assets/images/motofox-app.png',
       urlDeploy: 'https://motofox-belen.netlify.app/',
-      urlRepository: 'https://github.com/Andres2D/moto-fox-webapp'
+      urlRepository: 'https://github.com/Andres2D/moto-fox-webapp',
+      engine: [
+        {
+          name: 'Angular',
+          svgSrc: '../../../../assets/SVG/angular-icon.svg',
+          width: '25px',
+          height: ''
+        },
+        {
+          name: 'Contentful',
+          svgSrc: '../../../../assets/SVG/contentful.svg',
+          width: '25px',
+          height: ''
+        }
+      ]
     },
     {
       name: "Don't Guess",
       description: 'Trivias app based on public API, build with React',
-      preview: '../../../../assets/images/dontGuessPreview.png',
+      preview: '../../../../assets/images/dont-guess.png',
       urlDeploy: 'https://dont-guess-beta.netlify.app/main',
-      urlRepository: 'https://github.com/Andres2D/responsa-master-react'
+      urlRepository: 'https://github.com/Andres2D/responsa-master-react',
+      engine: [
+        {
+          name: 'React',
+          svgSrc: '../../../../assets/SVG/react.svg',
+          width: '25px',
+          height: ''
+        },
+        {
+          name: 'Redux',
+          svgSrc: '../../../../assets/SVG/redux.svg',
+          width: '25px',
+          height: ''
+        }
+      ]
     },
     {
       name: 'Admin App',
       description: 'Application to admin users and employees of a hospital',
-      preview: '../../../../assets/images/adminPro.png',
+      preview: '../../../../assets/images/admin-pro.png',
       urlDeploy: 'https://adm1npr0.herokuapp.com/login',
-      urlRepository: 'https://github.com/Andres2D/adminPro'
+      urlRepository: 'https://github.com/Andres2D/adminPro',
+      engine: [
+        {
+          name: 'Angular',
+          svgSrc: '../../../../assets/SVG/angular-icon.svg',
+          width: '25px',
+          height: ''
+        },
+        {
+          name: 'google-developers',
+          svgSrc: '../../../../assets/SVG/google-developers.svg',
+          width: '30px',
+          height: ''
+        },
+      ]
     },
     {
       name: 'GifsApp',
       description: 'Basic gifs search using giphy API',
-      preview: '../../../../assets/images/GifsAppPreview.PNG',
+      preview: '../../../../assets/images/gifs-app.png',
       urlDeploy: 'https://dazzling-roentgen-b4be77.netlify.app/',
-      urlRepository: 'https://github.com/Andres2D/gifsApp'
+      urlRepository: 'https://github.com/Andres2D/gifsApp',
+      engine: [
+        {
+          name: 'Angular',
+          svgSrc: '../../../../assets/SVG/angular-icon.svg',
+          width: '25px',
+          height: ''
+        }
+      ]
     },
     {
       name: 'CountriesApp',
       description: 'Get the last information about geography',
-      preview: '../../../../assets/images/CountriesAppPreview.PNG',
+      preview: '../../../../assets/images/countries-app.png',
       urlDeploy: 'https://friendly-bartik-91a05b.netlify.app/',
-      urlRepository: 'https://github.com/Andres2D/countriesApp'
+      urlRepository: 'https://github.com/Andres2D/countriesApp',
+      engine: [
+        {
+          name: 'Angular',
+          svgSrc: '../../../../assets/SVG/angular-icon.svg',
+          width: '25px',
+          height: ''
+        }
+      ]
     },
     {
       name: 'MapsApp',
       description: 'A Map application using Mapbox',
-      preview: '../../../../assets/images/MapsAppPreview.PNG',
+      preview: '../../../../assets/images/maps-app.png',
       urlDeploy: 'https://dazzling-hawking-69f7b6.netlify.app',
-      urlRepository: 'https://github.com/Andres2D/mapsApp'
+      urlRepository: 'https://github.com/Andres2D/mapsApp',
+      engine: [
+        {
+          name: 'Angular',
+          svgSrc: '../../../../assets/SVG/angular-icon.svg',
+          width: '25px',
+          height: ''
+        },
+        {
+          name: 'Mapbox',
+          svgSrc: '../../../../assets/SVG/mapbox-icon.svg',
+          width: '25px',
+          height: ''
+        }
+      ]
     },
     {
       name: '2Dice Game',
       description: 'Dice game created on React',
-      preview: '../../../../assets/images/dice-game-perview.png',
+      preview: '../../../../assets/images/dice-app.png',
       urlDeploy: 'https://2dice-game.netlify.app/',
-      urlRepository: 'https://github.com/Andres2D/react-dice-game'
+      urlRepository: 'https://github.com/Andres2D/react-dice-game',
+      engine: [
+        {
+          name: 'React',
+          svgSrc: '../../../../assets/SVG/react.svg',
+          width: '25px',
+          height: ''
+        }
+      ]
     }
   ];
 

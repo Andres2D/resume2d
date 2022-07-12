@@ -14,38 +14,60 @@ h1{
 }
 
 .card {
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    border-radius: 10px;
-    transition: 0.3s;
-    width: 20%;
-    padding: 2px 2px 2px 2px;
-    cursor: pointer;
-    background-color: whitesmoke;
-    margin-top: 10px;
-    flex: 0 1 30%;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 10px;
+  transition: 300ms;
+  width: 20%;
+  padding: 2px 2px 2px 2px;
+  cursor: pointer;
+  background-color: whitesmoke;
+  margin-top: 10px;
+  flex: 0 1 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 2px solid whitesmoke;
+
+  .preview {
+    width: 100%;
+    height: 150px;
+    border-radius: 8px;
+  }
+
+  .engine {
+    height: 10%;
+    margin: 5px 10px 0 10px;
+    display: flex;
+    align-items: center;
+
+    .engine-icon {
+      margin: 2px;
+    }
+  }
+
+  .project-info {
     display: flex;
     flex-direction: column;
+    height: 50%;
     justify-content: space-between;
-
-    img {
-        margin-top: 10px;
-        width: 100%;
-    }
     
     h3 {
-        font-family: 'Bear';
-        text-align: center;
+      font-family: 'Bear';
+      text-align: center;
+      margin-top: 5px;
+      margin-bottom: 5px;
     }
 
     p {
         font-family: 'Bear';
         text-align: center;
     }
+  }
 
-    &:hover {
-        box-shadow: 1px 1px 20px #cccc;
-        transform: scale(1.05,1.05);
-    }
+  &:hover {
+      box-shadow: 1px 1px 20px #cccc;
+      border: 2px solid $indigo-medium;
+  }
 }
 
 .links{
