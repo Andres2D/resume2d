@@ -109,7 +109,7 @@ export class ProjectsComponent implements OnInit {
       description: 'Get the last information about geography',
       preview: '../../../../assets/images/countries-app.png',
       urlDeploy: 'https://countries-app-2d.netlify.app/countries',
-      urlRepository: 'https://github.com/Andres2D/countriesApp',
+      urlRepository: 'https://github.com/Andres2D/all-my-countries-reac',
       engine: [
         {
           name: 'React',
