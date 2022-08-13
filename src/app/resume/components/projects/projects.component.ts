@@ -105,6 +105,27 @@ export class ProjectsComponent implements OnInit {
       ]
     },
     {
+      name: 'CountriesApp',
+      description: 'Get the last information about geography',
+      preview: '../../../../assets/images/countries-app.png',
+      urlDeploy: 'https://countries-app-2d.netlify.app/countries',
+      urlRepository: 'https://github.com/Andres2D/countriesApp',
+      engine: [
+        {
+          name: 'React',
+          svgSrc: '../../../../assets/SVG/react.svg',
+          width: '25px',
+          height: ''
+        },
+        {
+          name: 'Typescript',
+          svgSrc: '../../../../assets/SVG/typescript-icon.svg',
+          width: '25px',
+          height: ''
+        }
+      ]
+    },
+    {
       name: 'Admin App',
       description: 'Application to admin users and employees of a hospital',
       preview: '../../../../assets/images/admin-pro.png',
@@ -131,21 +152,6 @@ export class ProjectsComponent implements OnInit {
       preview: '../../../../assets/images/gifs-app.png',
       urlDeploy: 'https://dazzling-roentgen-b4be77.netlify.app/',
       urlRepository: 'https://github.com/Andres2D/gifsApp',
-      engine: [
-        {
-          name: 'Angular',
-          svgSrc: '../../../../assets/SVG/angular-icon.svg',
-          width: '25px',
-          height: ''
-        }
-      ]
-    },
-    {
-      name: 'CountriesApp',
-      description: 'Get the last information about geography',
-      preview: '../../../../assets/images/countries-app.png',
-      urlDeploy: 'https://friendly-bartik-91a05b.netlify.app/',
-      urlRepository: 'https://github.com/Andres2D/countriesApp',
       engine: [
         {
           name: 'Angular',
