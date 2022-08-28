@@ -126,6 +126,27 @@ export class ProjectsComponent implements OnInit {
       ]
     },
     {
+      name: '2D-Blog',
+      description: 'Personal blog about programming stuff',
+      preview: '../../../../assets/images/2d-blog.png',
+      urlDeploy: 'https://2d-blog-nextjs.vercel.app/',
+      urlRepository: 'https://github.com/Andres2D/2d-blog-nextjs',
+      engine: [
+        {
+          name: 'React',
+          svgSrc: '../../../../assets/SVG/react.svg',
+          width: '25px',
+          height: ''
+        },
+        {
+          name: 'NextJS',
+          svgSrc: '../../../../assets/SVG/nextjs-icon.svg',
+          width: '25px',
+          height: ''
+        }
+      ]
+    },
+    {
       name: 'Admin App',
       description: 'Application to admin users and employees of a hospital',
       preview: '../../../../assets/images/admin-pro.png',
@@ -196,7 +217,7 @@ export class ProjectsComponent implements OnInit {
           height: ''
         }
       ]
-    }
+    },
   ];
 
   constructor() { }
