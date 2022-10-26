@@ -16,6 +16,12 @@ export class InfoComponent implements OnInit {
       isEmail: false
     },
     {
+      name: 'npm',
+      link: 'https://www.npmjs.com/~andres2d',
+      logo: '../../../../assets/SVG/npm-icon.svg',
+      isEmail: false
+    },
+    {
       name: 'linkedin/andres-alcaraz',
       link: 'https://www.linkedin.com/in/andres-alcaraz',
       logo: '../../../../assets/SVG/linkedin.svg',
