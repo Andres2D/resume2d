@@ -1,15 +1,45 @@
 <div class="about">
   <h1 class="section-title">About</h1>
   <div class="presentation">
-      <img 
-        class="profile-photo" 
-        src="../../../../assets/images/1627176837291.jpg" 
-        alt="andres-alcaraz"
-        loading="lazy"
-        >
+    <img 
+      class="profile-photo" 
+      src="../../../../assets/images/1627176837291.jpg" 
+      alt="andres-alcaraz"
+      loading="lazy"
+    >
+    <div class="profile">
       <article class="description">
         {{ aboutMe }}
       </article>
+      <article class="education">
+        <img
+          class="badge"
+          src="../../../../assets/images/wes.png" 
+          alt="wes-certificated"
+          (click)="openWESSite()"
+        >
+        <p>
+          Software Engineer at 
+            <a href="https://www.politecnicojic.edu.co/">
+              Politécnico Colombiano Jaime Isaza Cadavid
+            </a>
+          <br>
+          <small>Issued by World Education Services</small>
+        </p>
+      </article>
+      <article class="education">
+        <img
+          class="ielts"
+          src="../../../../assets/images/IELTS.png" 
+          alt="ielts"
+        >
+        <p>
+          IELTS General Training score of B2
+          <br>
+          <small>Competent User</small>
+        </p>
+      </article>
+    </div>
   </div>
   <div class="properties">
     <div class="property">

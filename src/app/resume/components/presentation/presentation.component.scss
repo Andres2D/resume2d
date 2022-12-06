@@ -1,84 +1,113 @@
-@import '../../../styles/colors';
-@import '../../../styles/breaks';
+@import "../../../styles/colors";
+@import "../../../styles/breaks";
 
 .about {
-    height: 100vh;
-    padding-top: 50px;
+  height: 100vh;
+  padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  .section-title {
+    font-family: "Bear";
+    margin: 0;
+  }
+
+  .presentation {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    padding-top: 50px;
 
-    .section-title {
-        font-family: 'Bear';
-        margin: 0;
-    }
-    
-    .presentation {
-        display: flex;
-        align-items: flex-start;
-        justify-content: space-evenly;
-        padding-top: 50px;
-
-        .profile-photo {
-            width: 200px;
-            border-radius: 50px;
-            border: 10px solid $indigo-dark;
-        }
-    
-        .description {
-            width: 50%;
-            background-color: ghostwhite;
-            font-family: 'Bear';
-            padding: 30px;
-            border-radius: 10px;
-            font-size: 20px;
-            border: 2px solid black;
-        }
+    .profile-photo {
+      width: 200px;
+      border-radius: 50px;
+      border: 10px solid $indigo-dark;
     }
 
-    .properties {
+    .profile {
+      width: 50%;
+      font-family: "Bear";
+      font-size: 20px;
+      
+      .description {
+        background-color: ghostwhite;
+        padding: 30px;
+        border-radius: 10px;
+        border: 2px solid black;
+      }
+      
+      .education {
         display: flex;
-        justify-content: space-evenly;
+        align-items: center;
+        justify-content: flex-start;
         margin-top: 20px;
 
-        .property {
-            font-family: 'Bear';
-            font-size: 25px;
-            width: 210px;
-            text-align: center;
-            
-            .description {  
-                font-size: 20px;
-            }
-
-            .front {
-                color: #97A6DC;
-            }
-
-            .back {
-                color: #4A66C3;
-            }
+        .badge {
+          width: 90px;
+          height: 90px;
+          cursor: pointer;
         }
+
+        .ielts {
+          width: 90px;
+          margin-right: 10px;
+        }
+      }
     }
+  }
+
+  .properties {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+
+    .property {
+      font-family: "Bear";
+      font-size: 25px;
+      width: 210px;
+      text-align: center;
+
+      .description {
+        font-size: 20px;
+      }
+
+      .front {
+        color: #97a6dc;
+      }
+
+      .back {
+        color: #4a66c3;
+      }
+    }
+  }
 }
 
 @media (max-width: $big) {
-    .about {
-        height: auto;
+  .about {
+    height: auto;
 
-        .profile-photo {
-            margin-bottom: 20px;
-        }
-
-        .presentation {
-            align-items: center;
-            flex-direction: column;
-        }
-
-        .properties {
-            align-items: center;
-            flex-direction: column;
-        }
+    .profile-photo {
+      margin-bottom: 20px;
     }
+
+    .presentation {
+      align-items: center;
+      flex-direction: column;
+    }
+
+    .profile {
+      .education {
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+      }
+    }
+
+    .properties {
+      align-items: center;
+      flex-direction: column;
+    }
+  }
 }
