@@ -16,20 +16,20 @@ export class ProjectsComponent implements OnInit {
   projects: Project[] = [
     {
       name: 'Cotejo App',
-      description: 'A funny application to schedule matchs of football',
+      description: 'A funny application to schedule football matches',
       preview: '../../../../assets/images/cotejo-app.png',
-      urlDeploy: 'https://cotejo-app-beta.netlify.app/login',
-      urlRepository: 'https://github.com/Andres2D/cotejo-app-front',
+      urlDeploy: 'https://cotejoapp.vercel.app/auth',
+      urlRepository: 'https://github.com/Andres2D/cotejo-app-v2-nextjs',
       engine: [
         {
-          name: 'Angular',
-          svgSrc: '../../../../assets/SVG/angular-icon.svg',
+          name: 'NextJS',
+          svgSrc: '../../../../assets/SVG/nextjs-icon.svg',
           width: '25px',
           height: ''
         },
         {
-          name: 'Node.js',
-          svgSrc: '../../../../assets/SVG/nodejs-icon.svg',
+          name: 'Redux',
+          svgSrc: '../../../../assets/SVG/redux.svg',
           width: '25px',
           height: ''
         },
@@ -44,7 +44,7 @@ export class ProjectsComponent implements OnInit {
           svgSrc: '../../../../assets/SVG/mongodb.svg',
           width: '70px',
           height: ''
-        }
+        },
       ]
     },
     {
